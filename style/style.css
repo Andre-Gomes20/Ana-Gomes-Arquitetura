@@ -1,0 +1,72 @@
+:root {
+  /* Primária */
+  --color-primary: #35AAAA;
+  --color-primary-dark: #253E44;
+  --color-primary-light: #42BCBC;
+
+  /* Neutras */
+  --color-white: #FFFFFF;
+  --color-light: #F8F4EC;
+  --color-soft: #F0F7F7;
+
+  /* Destaques */
+  --color-accent-yellow: 255, 230, 161;
+  --color-accent-coral: #E58D76;
+
+  /* Texto */
+  --color-text: #333333;
+  --color-text-light: #6c757d;
+}
+
+body { 
+  font-family: Arial, sans-serif; 
+  font-size: 15pt;
+}
+    
+    .section { padding: 80px 20px;}
+    .bg-light { background-color: var(--color-light); }
+    .bg-soft { background-color: var(--color-soft); }
+    .bg-pri-dark { background-color: var(--color-primary-dark);}
+    .bg-pri-dark {color: var(--color-white);}
+    .cta { background-color: var(--color-primary); color: white; padding: 80px 20px; text-align: center; }
+    .btn-main { background-color: var(--color-primary); color: white; border: none; }
+    .btn-main:hover { opacity: 0.9; }
+    .texto-topico{ font-size: 14pt;}
+    .text-shadow{ text-shadow: 1px 1px 4px var(--color-text-light); }
+
+nav .nav-item, .nav-link{
+  color: var(--color-white);
+}
+
+.logo {
+  height: 40px;
+}
+/* estilos do hero */
+#hero { background-color: var(--color-light); 
+      padding: 100px 20px; 
+      background-image: url('../img/hero_bg.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+
+#hero .caixa-destaque{
+    background-color: var(--color-primary-light);
+    opacity: 0.95;
+    padding: 40px;
+    border-top-left-radius: 60px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+#dores h2{
+  color: var(--color-primary);
+  font-weight: bold;
+  text-shadow: 1px 1px 3px var(--color-text-light);
+}
+#dores .texto-topico{
+  border: 2px solid #253E44 ;
+  border-radius: 5px;
+  flex: 1 1 250px;
+}
+
+
+
