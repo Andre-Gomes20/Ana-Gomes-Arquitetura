@@ -1,216 +1,306 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta 
-  name="description" 
-  content="Arquitetura residencial pensada para transformar espaços em ambientes funcionais, acolhedores e com personalidade. Conheça os projetos da Ana Gomes Arquitetura."
-  >
-  <meta property="og:title" content="Ana Gomes Arquitetura">
-  <meta property="og:description" content="Projetos residenciais com identidade e funcionalidade.">
-  <meta property="og:type" content="website">
-
-  <title>Ana Gomes Arquitetura</title>
-  <link rel="icon" type="image/png" href="img/logo.png" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="style/style.css"/>
-
-</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ana Gomes Arquitetura | Do primeiro imóvel ao lar dos sonhos</title>
+  <meta name="description" content="Projetos autorais online que unem estética, funcionalidade e bem-estar para transformar espaços em experiências.">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  </head>
 <body>
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="container">
+      <nav class="nav">
+        <a href="#" class="logo">
+          <div class="logo-icon">G</div>
+          <div class="logo-text">
+            <span>ana gomes</span>
+            <span>arquitetura</span>
+          </div>
+        </a>
 
-  <!-- HEADER / NAVBAR -->
-  <header class="bg-pri-dark">
-    <nav class="navbar navbar-expand-lg shadow-sm">
-      <div class="container">
-        <a class="navbar-brand fw-bold" href="#"><img class="logo" src="img/logo_horizontal2.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
-          <span class="navbar-toggler-icon"></span>
+        <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+          <i class="fas fa-bars"></i>
         </button>
 
-        <div class="collapse navbar-collapse" id="menu">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
-            <li class="nav-item"><a class="nav-link" href="#processo">Processo</a></li>
-            <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
-            <li class="nav-item">
-              <a href="#contato" class="btn btn-main ms-3">Contato</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato" class="btn btn-primary">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <!-- MAIN -->
-  <main>
-
-    <!-- HERO -->
-    <section class="text-center" id="hero">
-      <div class="container ">
-        <div class="container caixa-destaque">
-          <h1 class="display-5 fw-semibold mb-3 text-shadow">
-            Projetos que transformam sua casa em um lugar com identidade
-          </h1>
-        </div>
-        <p class="lead mb-4 p-2">
-          Arquitetura pensada para sua rotina, sem decisões confusas ou desperdícios.
-        </p>
-        <a href="https://wa.me/5514998094179?text=Olá,%20quero%20um%20projeto%20de%20arquitetura" class="btn btn-main btn-lg" target="_blank">Agendar conversa</a>
-      </div>
-    </section>
-
-    <!-- DORES -->
-    <section class="section text-center" id="dores">
-      
-      <div class="container">
-        <h2 class="mb-5">Você se identifica com isso?</h2>
-
-        <div class="d-flex flex-wrap justify-content-center gap-4">
-          <div class="texto-topico p-2">Quer transformar seu imóvel em um lar com personalidade, mas não sabe como?</div>
-          <div class="texto-topico p-2">Está conquistando seu primeiro imóvel e quer fazer escolhas certas desde o início?</div>
-          <div class="texto-topico p-2">Tem medo de errar nas decisões e acabar gastando mais do que deveria?</div>
-        </div>
-      </div>
-      
-    </section>
-
-
-    <!-- PROCESSO -->
-    <section id="processo" class="section bg-soft text-center">
-      <div class="container">
-        <h2 class="mb-5">Como funciona</h2>
-        <div class="row">
-          <div class="col-md-3 mb-3">
-            <h5>1. Entendimento</h5>
-            <p class="texto-topico">Entendemos sua rotina e necessidades.</p>
-          </div>
-          <div class="col-md-3 mb-3">
-            <h5>2. Conceito</h5>
-            <p class="texto-topico">Criamos um projeto com identidade.</p>
-          </div>
-          <div class="col-md-3 mb-3">
-            <h5>3. Projeto</h5>
-            <p class="texto-topico">Detalhamento completo para execução.</p>
-          </div>
-          <div class="col-md-3 mb-3">
-            <h5>4. Acompanhamento</h5>
-            <p class="texto-topico">Suporte durante a obra.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section text-center bg-light portfolio">
-      <div class="container">
-        <h2 class="mb-5">Projetos</h2 >
-    <!-- PORTFOLIO -->
-    <div class="galeria-projeto mt-4">
-
-        <div class="row g-3 justify-content-center p-1">
-
-          <div class="col-6 col-md-4">
-            <img src="img/projetos/projeto1.png" class="img-fluid rounded-3 shadow-sm" alt="">
-          </div>
-
-          <div class="col-6 col-md-4">
-            <img src="img/projetos/projeto2.png" class="img-fluid rounded-3 shadow-sm" alt="">
-          </div>
-
-          <div class="col-6 col-md-4">
-            <img src="img/projetos/projeto3.png" class="img-fluid rounded-3 shadow-sm" alt="">
-          </div>
-
-          <div class="col-6 col-md-4">
-            <img src="img/projetos/projeto4.png" class="img-fluid rounded-3 shadow-sm" alt="">
-          </div>
-
-          <div class="col-6 col-md-4">
-            <img src="img/projetos/projeto5.png" class="img-fluid rounded-3 shadow-sm" alt="">
-          </div>
-
-          <div class="col-6 col-md-4">
-            <img src="img/projetos/projeto6.png" class="img-fluid rounded-3 shadow-sm" alt="">
-          </div>
-
-        </div>
-      </div>
-
-  </div>
-</section>
-
-    <!-- SOBRE A ARQUITETA -->
-<section id="sobre" class="section">
-  <div class="container">
-    <div class="row align-items-center">
-
-      <!-- FOTO -->
-      <div class="col-md-5 mb-4 mb-md-0 text-center">
-        <img 
-          src="img/ana_gomes.png" 
-          alt="Arquiteta Ana Gomes" 
-          class="img-fluid rounded-4 shadow"
-        >
-      </div>
-
-      <!-- TEXTO -->
-      <div class="col-md-7">
-        <h2 class="mb-4">Sobre a arquiteta</h2>
-
-        <p>
-          A arquitetura sempre fez parte da vida da Ana Gomes. Desde cedo, o interesse por arte, criação e pela forma como as pessoas vivem os espaços já direcionava o caminho que hoje se tornou sua profissão.
-        </p>
-
-        <p>
-          Seu trabalho vai além da estética. Cada projeto é pensado para refletir a essência de quem vai viver ali, unindo funcionalidade, conforto e identidade em soluções que fazem sentido no dia a dia.
-        </p>
-
-        <p>
-          Com um olhar sensível e um processo organizado, Ana conduz cada cliente com clareza e segurança, transformando ideias em espaços reais, bem resolvidos e acolhedores.
-        </p>
-
-        <a href="https://wa.me/5514998094179?text=Olá,%20quero%20um%20projeto%20de%20arquitetura" class="btn btn-main mt-3" target="_blank">
-          Agendar conversa
-        </a>
-      </div>
-
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <h1>Do primeiro imóvel<br>ao lar dos sonhos.</h1>
+      <p>Projetos autorais online que unem estética, funcionalidade e bem-estar para transformar espaços em experiências.</p>
+      <a href="#contato" class="btn btn-primary">INICIE SEU PROJETO</a>
     </div>
-  </div>
-</section>
-    <!-- DIFERENCIAIS -->
-    <section class="section bg-soft text-center">
-      <div class="container">
-        <h2 class="mb-5">Diferenciais</h2>
-        <div class="row">
-          <div class="col-md-4 mb-3 texto-topico">Projetos pensados para execução real</div>
-          <div class="col-md-4 mb-3 texto-topico">Personalização total</div>
-          <div class="col-md-4 mb-3 texto-topico">Processo claro e organizado</div>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="sobre" id="sobre">
+    <div class="container">
+      <div class="sobre-content">
+        <h2 class="section-title">Sobre</h2>
+        <p><strong>Projetamos espaços que contam histórias e melhoram a forma como as pessoas vivem.</strong></p>
+        <p>Acreditamos que cada projeto começa pela escuta. Compreender a rotina, os desejos e a história de cada cliente é o que nos permite criar espaços que refletem a identidade de quem o habita, atendendo às necessidades do dia a dia e proporcionando conforto, funcionalidade e bem-estar.</p>
+        <p>Da concepção ao detalhamento, cada decisão é tomada para que o resultado seja mais do que bonito: seja significativo.</p>
+      </div>
+      <div class="sobre-img">
+        <img src="images/sobre.jpg" alt="Interior moderno com painel de madeira e iluminação aconchegante">
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVIÇOS -->
+  <section class="servicos" id="servicos">
+    <div class="container">
+      <div class="servicos-header">
+        <h2 class="section-title">Serviços</h2>
+      </div>
+      <div class="servicos-grid">
+        <div class="servico-card">
+          <h3>Construir</h3>
+          <p>Projetos arquitetônicos para novas residências e ampliações.</p>
+        </div>
+        <div class="servico-card">
+          <h3>Transformar</h3>
+          <p>Projetos de interiores que unem funcionalidade e identidade.</p>
+        </div>
+        <div class="servico-card">
+          <h3>Planejar</h3>
+          <p>Compatibilização e detalhamento técnico para uma obra mais segura.</p>
+        </div>
+        <div class="servico-card">
+          <h3>Orientar</h3>
+          <p>Consultorias para compra de imóveis, reformas e decisões estratégicas.</p>
+        </div>
+        <div class="servico-card">
+          <h3>Adaptar</h3>
+          <p>Projetos residenciais e comerciais pensados para diferentes estilos de vida e modelos de negócio.</p>
+        </div>
+        <div class="servico-card">
+          <h3>Conectar</h3>
+          <p>Projetos online com o mesmo cuidado e acompanhamento, para clientes em qualquer lugar do Brasil.</p>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- SOBRE -->
-    <section id="sobre" class="section text-center">
-      <div class="container">
-        <h2 class="mb-4">Sobre</h2>
-        <p>
-          A arquitetura vai além da estética. É sobre criar espaços que fazem sentido para quem vive neles.
-        </p>
+  <!-- ARQUITETA -->
+  <section class="arquiteta" id="arquiteta">
+    <div class="container">
+      <div class="arquiteta-content">
+        <h2 class="section-title">Conheça a arquiteta</h2>
+        <p>Ana Beatriz Gomes é arquiteta e urbanista, pós-graduada em Gestão de Projetos, com mais de cinco anos de experiência no setor da arquitetura e construção civil.</p>
+        <p>Sua atuação combina sensibilidade para compreender as necessidades de cada cliente com uma abordagem técnica e estratégica, desenvolvendo projetos que equilibram identidade, funcionalidade e viabilidade.</p>
+        <p>Acredita que a arquitetura vai além da estética: um bom projeto é aquele que melhora a forma como as pessoas vivem, otimiza a rotina e permanece relevante ao longo do tempo.</p>
       </div>
-    </section>
+      <div class="arquiteta-img">
+        <img src="images/arquiteta.jpg" alt="Ana Beatriz Gomes, arquiteta">
+      </div>
+    </div>
+  </section>
 
-    <!-- CTA -->
-    <section id="contato" class="cta">
-      <h2 class="mb-4">Vamos transformar seu espaço?</h2>
-      <a href="https://wa.me/5514998094179?text=Olá,%20quero%20um%20projeto%20de%20arquitetura" class="btn btn-light btn-lg" target="_blank">Agendar primeira conversa</a>
-    </section>
-  </main>
+  <!-- PROJETOS -->
+  <section class="projetos" id="projetos">
+    <div class="container">
+      <div class="projetos-header">
+        <h2 class="section-title">Projetos</h2>
+      </div>
+      <div class="projetos-grid">
+        <div class="projeto-card">
+          <img src="images/projeto1.jpg" alt="Projeto residencial contemporâneo">
+        </div>
+        <div class="projeto-card">
+          <img src="images/projeto2.jpg" alt="Quarto infantil com tema natureza">
+        </div>
+        <div class="projeto-card">
+          <img src="images/projeto3.jpg" alt="Cozinha moderna com ilha">
+        </div>
+        <div class="projeto-card">
+          <img src="images/projeto4.jpg" alt="Residência moderna com coqueiros">
+        </div>
+        <div class="projeto-card">
+          <img src="images/projeto5.jpg" alt="Casa contemporânea com garagem">
+        </div>
+        <div class="projeto-card">
+          <img src="images/projeto6.jpg" alt="Sala de jantar e estar integrada">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <h2 class="faq-title">Perguntas<br>frequentes</h2>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question">
+            Como funciona o desenvolvimento do projeto?
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>O processo começa com uma conversa para entender suas necessidades e desejos. Em seguida, desenvolvemos o conceito, apresentamos as opções e refinamos até o detalhamento final, com acompanhamento em todas as etapas.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            Vocês fazem projetos residenciais e comerciais?
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Sim! Atuamos tanto em projetos residenciais (casas, apartamentos e reformas) quanto comerciais, sempre adaptando a solução ao estilo de vida ou modelo de negócio do cliente.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            É possível contratar o projeto de forma remota?
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Sim. Realizamos projetos 100% online, com o mesmo cuidado, qualidade e acompanhamento que um atendimento presencial. Atendemos clientes em qualquer lugar do Brasil.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            Quanto custa um projeto?
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>O valor varia de acordo com o tipo, tamanho e complexidade do projeto. Entre em contato para receber uma proposta personalizada e sem compromisso.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="contato" id="contato">
+    <div class="container">
+      <div class="contato-header">
+        <h2 class="section-title">CONTATO</h2>
+        <p class="section-subtitle" style="color: var(--text-muted); margin: 0 auto;">Vamos conversar?<br>Cada projeto começa com uma boa conversa. Seja para construir, reformar ou transformar um ambiente, será um prazer conhecer sua ideia e ajudar a transformá-la em realidade.</p>
+      </div>
+
+      <div class="contato-info" style="margin-bottom: 2.5rem;">
+        <a href="tel:+5514998094179"><i class="fas fa-phone"></i> (14) 99809-4179</a>
+        <a href="mailto:anagomesarquitetura@gmail.com"><i class="fas fa-envelope"></i> anagomesarquitetura@gmail.com</a>
+      </div>
+
+      <div class="contato-grid">
+        <div class="contato-card">
+          <h3>Falar no WhatsApp</h3>
+          <p>Ideal para tirar dúvidas ou conversar sobre seu projeto.</p>
+          <a href="https://wa.me/5514998094179" target="_blank" rel="noopener" class="btn btn-whatsapp">
+            <i class="fab fa-whatsapp"></i> ABRIR WHATSAPP
+          </a>
+        </div>
+        <div class="contato-card">
+          <h3>Solicitar uma proposta</h3>
+          <p>Escolha o tipo de projeto e preencha o formulário para receber uma proposta personalizada.</p>
+          <div class="contato-buttons">
+            <a href="https://wa.me/5514998094179?text=Olá! Gostaria de solicitar uma proposta de Projeto Arquitetônico." target="_blank" rel="noopener" class="btn btn-primary">
+              PROJETO ARQUITETÔNICO
+            </a>
+            <a href="https://wa.me/5514998094179?text=Olá! Gostaria de solicitar uma proposta de Projeto de Interiores." target="_blank" rel="noopener" class="btn btn-primary">
+              PROJETO DE INTERIORES
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- FOOTER -->
-  <footer class="text-center py-4 bg-pri-dark">
-    <p class="mb-0">© 2026 Ana Gomes Arquitetura</p>
+  <footer class="footer">
+    <div class="container">
+      <p style="font-size: 0.85rem; letter-spacing: 0.15em; color: var(--text-muted); margin-bottom: 1.5rem;">ACOMPANHE NOSSO TRABALHO</p>
+      <div class="footer-social">
+        <a href="#" aria-label="Instagram" class="social-item">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#" aria-label="Pinterest" class="social-item">
+          <i class="fab fa-pinterest-p"></i>
+        </a>
+        <a href="#" aria-label="LinkedIn" class="social-item">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="#" aria-label="Facebook" class="social-item">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </div>
+      <div class="footer-logo">
+        <a href="#" class="logo">
+          <div class="logo-icon">G</div>
+          <div class="logo-text">
+            <span>ana gomes</span>
+            <span>arquitetura</span>
+          </div>
+        </a>
+      </div>
+      <p class="footer-copy">© 2026 Ana Gomes Arquitetura. Todos os direitos reservados.</p>
+    </div>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Menu mobile
+    const menuToggle = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+      const icon = menuToggle.querySelector('i');
+      icon.classList.toggle('fa-bars');
+      icon.classList.toggle('fa-times');
+    });
+
+    // Fechar menu ao clicar em link
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+        menuToggle.querySelector('i').classList.add('fa-bars');
+        menuToggle.querySelector('i').classList.remove('fa-times');
+      });
+    });
+
+    // Header scroll effect
+    const header = document.getElementById('header');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+    });
+
+    // FAQ Accordion
+    document.querySelectorAll('.faq-question').forEach(button => {
+      button.addEventListener('click', () => {
+        const item = button.parentElement;
+        const isActive = item.classList.contains('active');
+
+        // Fecha todos
+        document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+
+        // Abre o clicado se não estava aberto
+        if (!isActive) {
+          item.classList.add('active');
+        }
+      });
+    });
+  </script>
 </body>
 </html>
