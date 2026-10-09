@@ -433,6 +433,10 @@ section {
   height: 100%;
   object-fit: cover;
   transition: transform 0.5s ease;
+  margin: auto auto;
+}
+.projeto-card img#projeto4 {
+  object-position: bottom;
 }
 
 .projeto-card:hover img {
